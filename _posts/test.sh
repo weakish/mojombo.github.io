@@ -1,5 +1,4 @@
-echo '**hi**' > `mpm -g`
-echo '**hi**' > `mpm -g`
+cat blog.md > `mpm -g`
 git add *
 git commit -mt
 git push
